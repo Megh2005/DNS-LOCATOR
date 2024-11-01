@@ -21,11 +21,15 @@ To install DNS Locator, follow these steps:
     ```
 2. Navigate to the project directory:
     ```bash
-    cd dns-locator
+    cd DNS-LOCATOR
     ```
 3. Install the required dependencies:
     ```bash
-    npm install
+    pip install -r requirements.txt
+    ```
+4. Run the application:
+    ```bash
+    streamlit run app.py
     ```
 
 ## Usage
